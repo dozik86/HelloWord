@@ -13,6 +13,8 @@
 		44A6B9FD27470B2B0091627E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6B9EB27470B280091627E /* ContentView.swift */; };
 		44A6B9FE27470B2B0091627E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A6B9EC27470B2B0091627E /* Assets.xcassets */; };
 		44A6B9FF27470B2B0091627E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A6B9EC27470B2B0091627E /* Assets.xcassets */; };
+		44A6BA09274711350091627E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A6BA08274711350091627E /* Storyboard.storyboard */; };
+		44A6BA0A274711350091627E /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A6BA08274711350091627E /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,7 @@
 		44A6B9F127470B2B0091627E /* HelloWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A6B9F727470B2B0091627E /* HelloWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A6B9F927470B2B0091627E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		44A6BA08274711350091627E /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				44A6B9EA27470B280091627E /* HelloWordApp.swift */,
+				44A6BA08274711350091627E /* Storyboard.storyboard */,
 				44A6B9EB27470B280091627E /* ContentView.swift */,
 				44A6B9EC27470B2B0091627E /* Assets.xcassets */,
 			);
@@ -158,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44A6B9FE27470B2B0091627E /* Assets.xcassets in Resources */,
+				44A6BA09274711350091627E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44A6B9FF27470B2B0091627E /* Assets.xcassets in Resources */,
+				44A6BA0A274711350091627E /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
